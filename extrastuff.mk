@@ -16,8 +16,8 @@
 
 # MotoCam 2
 PRODUCT_COPY_FILES += \
-    MotoPhotoEditor/lib/arm64/libdualcameraddm.so:system/app/MotoPhotoEditor/lib/arm64/libdualcameraddm.so \
-    MotoPhotoEditor/lib/arm64/libjni_dualcamera.so:system/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so \
+    vendor/ExtraStuff/MotoPhotoEditor/lib/arm64/libdualcameraddm.so:system/app/MotoPhotoEditor/lib/arm64/libdualcameraddm.so \
+    vendor/ExtraStuff/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so:system/app/MotoPhotoEditor/lib/arm64/libjni_dualcamera.so \
     vendor/ExtraStuff/Motocamera2/lib/arm/libarcsoft_agegender_estimation.so:system/priv-app/Motocamera2/lib/arm/libarcsoft_agegender_estimation.so \
     vendor/ExtraStuff/Motocamera2/lib/arm/libarcsoft_beautyshot.so:system/priv-app/Motocamera2/lib/arm/libarcsoft_beautyshot.so \
     vendor/ExtraStuff/Motocamera2/lib/arm/libarcsoft_dualcam_refocus.so:system/priv-app/Motocamera2/lib/arm/libarcsoft_dualcam_refocus.so \
@@ -97,6 +97,11 @@ PRODUCT_PACKAGES += \
     MotoSignatureApp \
     MotoPhotoEditor \
     com.motorola.motosignature.jar
+
+# TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather \
+    com.motorola.timeweatherwidget.library.jar  
 
 
 
