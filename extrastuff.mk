@@ -103,5 +103,10 @@ PRODUCT_PACKAGES += \
     TimeWeather \
     com.motorola.timeweatherwidget.library.jar  
 
+# Gboard
+PRODUCT_PACKAGES += \
+    LatinImeGoogle 
 
-
+# Gboard
+PRODUCT_PACKAGES += \
+    Lawnchair 

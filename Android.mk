@@ -89,4 +89,29 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := LatinImeGoogle
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := LatinImeGoogle/LatinImeGoogle.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Lawnchair
+LOCAL_MODULE_OWNER := lawnchair
+LOCAL_SRC_FILES := Lawnchair/Lawnchair.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := false
+include $(BUILD_PREBUILT)
+
+
 endif
