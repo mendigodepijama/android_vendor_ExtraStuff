@@ -87,9 +87,9 @@ PRODUCT_COPY_FILES += \
     vendor/ExtraStuff/MotoCamera2/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
     vendor/ExtraStuff/MotoCamera2/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml
 
-# TimeWeather Permission
+# Lawnchair Permission
 PRODUCT_COPY_FILES += \
-    vendor/ExtraStuff/TimeWeather/etc/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml
+    vendor/ExtraStuff/Lawnchair/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml
 
 # MotoCamera 2
 PRODUCT_PACKAGES += \
@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     MotoPhotoEditor \
     com.motorola.motosignature.jar
 
-# TimeWeather
+# Lawnchair
 PRODUCT_PACKAGES += \
-    TimeWeather \
-    com.motorola.timeweatherwidget.library.jar
+    Lawnchair
