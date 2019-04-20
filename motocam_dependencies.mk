@@ -14,4 +14,4 @@
 
 # Extra Stuff by MENDIGOdePIJAMA
 
-$(call inherit-product, vendor/ExtraStuff/Motocam_Dependencies/motocam_dependencies.mk)
+$(call inherit-product, vendor/ExtraStuff/MotoCam_Dependencies/motocam_dependencies.mk)
