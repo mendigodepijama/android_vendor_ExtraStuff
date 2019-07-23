@@ -22,7 +22,7 @@ ifeq ($(TARGET_DEVICE),sanders)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Lawnchair
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := Lawnchair/app/Lawnchair.apk
+LOCAL_SRC_FILES := app/Lawnchair.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3 Launcher3QuickStep
